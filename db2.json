@@ -1,0 +1,64 @@
+
+  {
+    "id": "1",
+    "nombre": "proyecto",
+    "usuarios": [
+      {
+        "id" : "1",
+        "email": "user@user"
+      },
+      {
+        "id" : "2",
+        "email": "user@user"
+      }
+    ],
+    "lista": [
+      {
+      "id": "1",
+      "nombre": "lista",
+      "tareas": [
+        {
+          "id" : "1",
+          "nombre" : "tarea1",
+          "descripcion": "desc",
+          "dificultad": 1,
+          "prioridad": 3,
+          "usuarios": [
+            {
+              "id" : "1",
+              "email": "user@user"
+            },
+            {
+              "id" : "2",
+              "email": "user@user"
+            }
+          ]
+        },
+        {
+          "id" : "2",
+          "nombre" : "tarea2",
+          "dificultad": 2,
+          "prioridad": 1,
+          "usuarios": [
+            {
+              "id" : "1",
+              "email": "user@user"
+            },
+            {
+              "id" : "2",
+              "email": "user@user"
+            }
+          ]
+        }
+      ]
+  }],
+  "mensajes": [
+    {
+      "id" : 1,
+      "usuario_id": 2,
+      "texto": "texto de mensaje",
+      "fecha":"fecha",
+      "hora":"hora"
+    }
+  ]
+  }

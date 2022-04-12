@@ -1,64 +1,65 @@
-
-  {
-    "id": "1",
-    "nombre": "proyecto",
-    "usuarios": [
-      {
-        "id" : "1",
-        "email": "user@user"
-      },
-      {
-        "id" : "2",
-        "email": "user@user"
-      }
-    ],
-    "lista": [
-      {
-      "id": "1",
-      "nombre": "lista",
-      "tareas": [
+{
+  "proyectos": [
+    {
+      "id": "1", 
+      "nombre": "proyecto1", 
+      "usuarios": [
         {
-          "id" : "1",
-          "nombre" : "tarea1",
-          "descripcion": "desc",
-          "dificultad": 1,
-          "prioridad": 3,
-          "usuarios": [
-            {
-              "id" : "1",
-              "email": "user@user"
-            },
-            {
-              "id" : "2",
-              "email": "user@user"
-            }
-          ]
+          "id": "1",
+          "email": "user1@user"
         },
         {
-          "id" : "2",
-          "nombre" : "tarea2",
-          "dificultad": 2,
-          "prioridad": 1,
-          "usuarios": [
+          "id": "2",
+          "email": "user2@user.com"
+        }
+      ],
+      "listas": [
+        {
+          "id": "1",
+          "nombre": "lista1",
+          "tareas": [
             {
-              "id" : "1",
-              "email": "user@user"
+              "id":"1",
+              "nombre":"tarea1",
+              "descripcion":"descripción tarea 1",
+              "dificultad": 1,
+              "prioridad": 3,
+              "usuarios": [
+                {
+                  "id":"1",
+                  "email":"user1@user"
+                }
+              ]
             },
             {
-              "id" : "2",
-              "email": "user@user"
+              "id":"2",
+              "nombre":"tarea2",
+              "descripcion":"descripción tarea 2",
+              "dificultad": 2,
+              "prioridad": 1,
+              "usuarios": [
+                {
+                  "id":"1",
+                  "email":"user1@user"
+                },
+                {
+                  "id":"2",
+                  "email":"user2@user"
+                }
+              ]
             }
           ]
         }
+      ],
+      "mensajes": [
+        {
+          "id": 1,
+          "usuario": "2",
+          "texto":"texto del mensaje",
+          "fecha": "fecha",
+          "hora": "hora"
+        }
       ]
-  }],
-  "mensajes": [
-    {
-      "id" : 1,
-      "usuario_id": 2,
-      "texto": "texto de mensaje",
-      "fecha":"fecha",
-      "hora":"hora"
     }
   ]
-  }
+}
