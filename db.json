@@ -1,65 +1,164 @@
 {
   "proyectos": [
     {
-      "id": "1", 
+      "id": 1, 
       "nombre": "proyecto1", 
-      "usuarios": [
-        {
-          "id": "1",
-          "email": "user1@user"
-        },
-        {
-          "id": "2",
-          "email": "user2@user.com"
-        }
-      ],
-      "listas": [
-        {
-          "id": "1",
-          "nombre": "lista1",
-          "tareas": [
-            {
-              "id":"1",
-              "nombre":"tarea1",
-              "descripcion":"descripción tarea 1",
-              "dificultad": 1,
-              "prioridad": 3,
-              "usuarios": [
-                {
-                  "id":"1",
-                  "email":"user1@user"
-                }
-              ]
-            },
-            {
-              "id":"2",
-              "nombre":"tarea2",
-              "descripcion":"descripción tarea 2",
-              "dificultad": 2,
-              "prioridad": 1,
-              "usuarios": [
-                {
-                  "id":"1",
-                  "email":"user1@user"
-                },
-                {
-                  "id":"2",
-                  "email":"user2@user"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "mensajes": [
-        {
-          "id": 1,
-          "usuario": "2",
-          "texto":"texto del mensaje",
-          "fecha": "fecha",
-          "hora": "hora"
-        }
-      ]
+      "usuarios": [1,2],
+      "descripcion": "descripción proyecto 1",
+      "listas": [1,2],
+      "mensajes": [1]
+    },
+    {
+      "id": 2, 
+      "nombre": "proyecto2", 
+      "usuarios": [3,4,5],
+      "descripcion": "descripción proyecto 2",
+      "listas": [3],
+      "mensajes": [2]
+    }
+  ],
+  "mensajes": [
+    {
+      "id": 1,
+      "usuario": 2,
+      "texto":"texto del mensaje1",
+      "fecha": "fecha1",
+      "hora": "hora1"
+    },
+    {
+      "id": 2,
+      "usuario": 1,
+      "texto":"texto del mensaje2",
+      "fecha": "fecha2",
+      "hora": "hora2"
+    }
+  ],
+  "tareas": [
+    {
+      "id":1,
+      "nombre":"tarea1",
+      "descripcion":"descripción tarea 1",
+      "dificultad": 1,
+      "prioridad": 1,
+      "usuarios": [1]
+    },
+    {
+      "id":2,
+      "nombre":"tarea2",
+      "descripcion":"descripción tarea 2",
+      "dificultad": 1,
+      "prioridad": 2,
+      "usuarios": [1,2]
+    },
+    {
+      "id":3,
+      "nombre":"tarea3",
+      "descripcion":"descripción tarea 3",
+      "dificultad": 1,
+      "prioridad": 3,
+      "usuarios": [3,2]
+    },
+    {
+      "id":4,
+      "nombre":"tarea4",
+      "descripcion":"descripción tarea 4",
+      "dificultad": 2,
+      "prioridad": 1,
+      "usuarios": [4,5]
+    },
+    {
+      "id":5,
+      "nombre":"tarea5",
+      "descripcion":"descripción tarea 5",
+      "dificultad": 2,
+      "prioridad": 2,
+      "usuarios": [1,4]
+    },
+    {
+      "id":6,
+      "nombre":"tarea6",
+      "descripcion":"descripción tarea 6",
+      "dificultad": 2,
+      "prioridad": 3,
+      "usuarios": [5,2]
+    },
+    {
+      "id":7,
+      "nombre":"tarea7",
+      "descripcion":"descripción tarea 7",
+      "dificultad": 3,
+      "prioridad": 1,
+      "usuarios": [1,3]
+    },
+    {
+      "id":8,
+      "nombre":"tarea8",
+      "descripcion":"descripción tarea 8",
+      "dificultad": 3,
+      "prioridad": 2,
+      "usuarios": []
+    },
+    {
+      "id":9,
+      "nombre":"tarea9",
+      "descripcion":"descripción tarea 9",
+      "dificultad": 3,
+      "prioridad": 3,
+      "usuarios": [1]
+    }
+  ],
+  "listas":[
+    {
+      "id": 1,
+      "nombre": "lista1_dif1",
+      "tareas": [1,2,3]
+    },
+    {
+      "id": 2,
+      "nombre": "lista2_dif2",
+      "tareas": [4,5,6]
+    },
+    {
+      "id": 3,
+      "nombre": "lista3_dif3",
+      "tareas": [7,8,9]
+    }
+  ],
+  "usuarios": [
+    {
+      "id":1,
+      "email":"user1@user.com",
+      "password":"user1",
+      "nombre":"user1_nombre",
+      "apellido":"user1_ape"
+    },
+    {
+      "id":2,
+      "email":"user2@user.com",
+      "password":"user2",
+      "nombre":"user2_nombre",
+      "apellido":"user2_ape"
+    },
+    {
+      "id":3,
+      "email":"ana@user.com",
+      "password":"ana",
+      "nombre":"ana",
+      "apellido":"albarracin"
+    },
+    {
+      "id":4,
+      "email":"alberto@user.com",
+      "password":"alberto",
+      "nombre":"alberto",
+      "apellido":"garcía"
+    },
+    {
+      "id":5,
+      "email":"carlos@user.com",
+      "password":"carlos",
+      "nombre":"carlos",
+      "apellido":"fuentes"
     }
   ]
 }
