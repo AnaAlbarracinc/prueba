@@ -15,6 +15,14 @@
       "descripcion": "descripción proyecto 2",
       "listas": [3],
       "mensajes": [2]
+    },
+    {
+      "id": 3, 
+      "nombre": "proyecto3", 
+      "usuarios": [1,5],
+      "descripcion": "descripción proyecto 3",
+      "listas": [],
+      "mensajes": []
     }
   ],
   "mensajes": [
