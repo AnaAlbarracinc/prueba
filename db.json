@@ -5,7 +5,7 @@
       "nombre": "proyecto1", 
       "usuarios": [1,2],
       "descripcion": "descripción proyecto 1",
-      "listas": [1,2],
+      "listas": [1,2,3],
       "mensajes": [1]
     },
     {
