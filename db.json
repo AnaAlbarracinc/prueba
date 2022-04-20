@@ -11,7 +11,7 @@
     {
       "id": 2, 
       "nombre": "proyecto2", 
-      "usuarios": [3,4,5],
+      "usuarios": [3,4,5,1,2],
       "descripcion": "descripción proyecto 2",
       "listas": [3],
       "mensajes": [2]
