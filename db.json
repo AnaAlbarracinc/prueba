@@ -119,7 +119,7 @@
     {
       "id": 1,
       "nombre": "lista1_dif1",
-      "tareas": [1,2,3]
+      "tareas": [1,2]
     },
     {
       "id": 2,
