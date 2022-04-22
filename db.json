@@ -312,7 +312,22 @@
     {
       "id": 3, 
       "nombre": "proyecto3", 
-      "usuarios": [1,5],
+      "usuarios": [
+        {
+          "id":1,
+          "email":"user1@user.com",
+          "password":"user1",
+          "nombre":"user1_nombre",
+          "apellido":"user1_ape"
+        },
+        {
+          "id":5,
+          "email":"carlos@user.com",
+          "password":"carlos",
+          "nombre":"carlos",
+          "apellido":"fuentes"
+        }
+      ],
       "descripcion": "descripción proyecto 3",
       "listas": [],
       "mensajes": []
